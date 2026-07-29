@@ -1,6 +1,5 @@
-# server.py — отдельный файл без argparse
 from fastapi import FastAPI
-from OSINT import OSINTScanner  # импортируем только класс
+from OSINT import OSINTScanner
 
 app = FastAPI()
 
